@@ -1,0 +1,24 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="LD44"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[locale]
+
+translations=PoolStringArray( "res://l10n/strings.de.translation", "res://l10n/strings.fr.translation", "res://l10n/strings.ja.translation", "res://l10n/strings.sw_TZ.translation", "res://l10n/strings.en.translation", "res://l10n/strings.en_GB.translation" )
+locale_filter=[ 0, [  ] ]
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

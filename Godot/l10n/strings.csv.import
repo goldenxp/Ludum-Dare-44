@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://l10n/strings.en.translation", "res://l10n/strings.en_GB.translation", "res://l10n/strings.ja.translation", "res://l10n/strings.sw_TZ.translation", "res://l10n/strings.fr.translation", "res://l10n/strings.de.translation" ]
+
+source_file="res://l10n/strings.csv"
+dest_files=[ "res://l10n/strings.en.translation", "res://l10n/strings.en_GB.translation", "res://l10n/strings.ja.translation", "res://l10n/strings.sw_TZ.translation", "res://l10n/strings.fr.translation", "res://l10n/strings.de.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

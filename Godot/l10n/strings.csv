@@ -1,0 +1,14 @@
+id,en,en_GB,ja,sw_TZ,fr,de
+KEY_OPTIONS,Options,Options,オプション,Chaguzio,Options,Optionen
+KEY_AUDIO,Audio,Audio,オーディオ,Audio,Audio,Audio
+KEY_DISPLAY,Display,Display,表示,Display,Afficher,Anzeige
+KEY_FULLSCREEN,FullScreen,FullScreen,全画面表示,Fullscreen,Plein écran,Vollbildschirm
+KEY_SOUND,Sound,Sound,音,Sauti,Son,Klingen
+KEY_MUSIC,Music,Music,音楽,Music,Musique,Musik
+KEY_OTHER,Other,Miscellaneous,雑多,Miscellaneous,Divers,Verschiedenes
+KEY_EN,English,English,英語,English,Anglais,Englisch
+KEY_EN_GB,English UK,English UK,英語 UK,English UK,Anglais UK,Englisch UK
+KEY_JA,Japanese,Japanese,日本人,Kijapani,Japonais,japanisch
+KEY_SW_TZ,Swahili,Swahili,スワヒリ語,Swahili,Swahili,Swahili
+KEY_FR,French,French,フランス語,Kifaransa,Français,Französisch
+KEY_DE,German,German,ドイツ人,German,Allemand,Deutsche
