@@ -23,5 +23,8 @@ func _ready():
 	
 func DrawCard():
 	var inst = unit.instance()
+	
+	# TODO change index to param
 	inst.get_node("Image").set_texture(CARDS[0]["image"])
+	
 	return inst
