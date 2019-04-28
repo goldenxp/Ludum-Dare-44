@@ -13,3 +13,6 @@ KEY_JA,Japanese,Japanese,日本人,Kijapani,Japonais,japanisch
 KEY_SW_TZ,Swahili,Swahili,スワヒリ語,Swahili,Swahili,Swahili
 KEY_FR,French,French,フランス語,Kifaransa,Français,Französisch
 KEY_DE,German,German,ドイツ人,German,Allemand,Deutsche
+KEY_UPLOAD,Upload,Upload,アップロード,Kupakia,Télécharger,Hochladen
+KEY_PREV_CAPTION,Prev Caption,Prev Caption,前のキャプション,Caption previous,Légende précédente,Zurück Caption
+KEY_NEXT_CAPTION,Next Caption,Next Caption,次のキャプション,Next Caption,Légende suivante,Weiter Caption
