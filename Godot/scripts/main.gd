@@ -109,9 +109,7 @@ func ChangeLocale(index):
 			get_node("Dialog_Options/Container_Options/Option_Lang").set_text(lang)
 	pass
 
-func Resize():
-	
-	
+func Resize():	
 	if (get_node("Dialog_Options").is_visible()):
 		get_node("Dialog_Options").popup_centered()
 		
