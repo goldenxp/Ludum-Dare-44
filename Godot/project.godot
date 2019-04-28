@@ -10,9 +10,14 @@ config_version=3
 
 [application]
 
-config/name="LD44"
-run/main_scene="res://main.tscn"
+config/name="InstaSoul"
+run/main_scene="res://scenes/main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Deck="*res://scripts/deck.gd"
+Game="*res://scenes/game.tscn"
 
 [locale]
 

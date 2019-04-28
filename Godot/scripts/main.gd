@@ -19,7 +19,11 @@ func _ready():
 	
 	LoadOptions()
 	
+	# Connect canvas
+	get_tree().connect("screen_resized",self,"Resize")
+	
 	# Connect buttons
+	get_node("Container_MainMenu/Button_Start").connect("pressed",self,"StartGame")
 	get_node("Container_MainMenu/Button_Options").connect("pressed",self,"ShowOptions")
 	get_node("Dialog_Options/Container_Options/Option_Lang").connect("item_selected",self,"ChangeLocale")
 	
@@ -104,8 +108,18 @@ func ChangeLocale(index):
 		if (index == i):
 			get_node("Dialog_Options/Container_Options/Option_Lang").set_text(lang)
 	pass
+
+func Resize():
 	
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
+	
+	if (get_node("Dialog_Options").is_visible()):
+		get_node("Dialog_Options").popup_centered()
+		
+	pass
+
+func StartGame():
+	get_node("Panel_Background").hide()
+	get_node("Container_MainMenu").hide()
+	Game.Start()
+	
+	pass
